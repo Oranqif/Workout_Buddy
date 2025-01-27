@@ -1,7 +1,7 @@
 const express = require('express')
 
 // controller functions
-const { signupUser, loginUser } = require.apply('../controllers/userController.js')
+const { signupUser, loginUser } = require('../controllers/userController.js')
 
 const router = express.Router()
 
