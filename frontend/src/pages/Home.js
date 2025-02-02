@@ -27,6 +27,10 @@ const Home = () => {
     }
   }, [dispatch, user])
 
+  const searchList = ({}) => {
+
+  }
+
   return (
     <div className="home">
       <div className="workouts">
